@@ -1,0 +1,28 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/animate';
+
+@import 'base/variables';
+@import 'base/animation';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/preference';
+@import 'blocks/titles';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/reviews';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';
+
+* {
+    font-family: 'MuseoSansCyrl', sans-serif;
+}
+
+.container{
+    position: relative;
+    max-width: 950px;
+    margin: 0 auto;
+}

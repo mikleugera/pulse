@@ -1,0 +1,36 @@
+.preference {
+    min-height: 473px;
+    padding: 73px 0 65px 0;
+    background: #F6F6F6;
+    &_icons{
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;       
+    }
+    &_icon {
+        width: 280px;
+        text-align: center;
+        &_animation {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover{
+                animation-play-state: paused;
+            }
+        }
+    }
+    &_title {
+        margin-top: 35px;
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+    &_main {
+        color: #0D0D0D;
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 14px;
+        a{
+            color: $main-color;
+            text-decoration: underline;
+        }
+    }  
+}
